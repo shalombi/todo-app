@@ -1,0 +1,45 @@
+body {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+li button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+li {
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.todo-filter {
+    padding: 1em;
+    background-color: rgb(233, 233, 233);
+
+}
+
+.stat {
+    padding: 0.75em 1em;
+    background-color: rgb(29, 6, 135);
+    margin-bottom: 10px;
+}
+
+/* .created-at {
+    color: red;
+    height: 50px; 
+    width: 180px;
+    background-color: white;
+} */
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    gap: 32px;
+}
